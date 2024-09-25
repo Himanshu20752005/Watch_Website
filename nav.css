@@ -1,0 +1,36 @@
+.header1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 1rem 2rem;
+}
+
+.header1 .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.search {
+  width: 40%;
+}
+
+.search input {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.icons a {
+  margin-left: 1rem;
+  color: #000;
+}
+
+.header-2 {
+  background-color: #222;
+}
+
+.navbar a {
+  color: #fff;
+  padding: 1rem;
+}

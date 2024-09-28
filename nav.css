@@ -1,36 +1,57 @@
+/* Improved design */
+:root {
+  --main-color: #222;
+  --accent-color: #fff;
+  --icon-color: #000;
+  --hover-color: #333;
+}
+
 .header1 {
+  background-color: var(--accent-color);
+  padding: 1rem 5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fff;
-  padding: 1rem 2rem;
 }
 
-.header1 .logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.search {
-  width: 40%;
+.header1 .menu {
+  display: none;
 }
 
 .search input {
-  width: 100%;
-  padding: 0.5rem;
-  border-radius: 5px;
+  border: 1px solid var(--icon-color);
+  padding: 0.8rem;
+  border-radius: 0.5rem;
 }
 
 .icons a {
-  margin-left: 1rem;
-  color: #000;
+  font-size: 1.5rem;
+  color: var(--icon-color);
 }
 
 .header-2 {
-  background-color: #222;
+  background-color: var(--main-color);
+  padding: 1rem 0;
 }
 
 .navbar a {
-  color: #fff;
-  padding: 1rem;
+  color: var(--accent-color);
+  padding: 0.5rem 1rem;
+}
+
+.navbar a:hover {
+  background-color: var(--hover-color);
+}
+
+@media (max-width: 768px) {
+  .header1 .menu {
+    display: block;
+  }
+  .navbar {
+    display: none;
+  }
+  .navbar.active {
+    display: block;
+    text-align: center;
+  }
 }

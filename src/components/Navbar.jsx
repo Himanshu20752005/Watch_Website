@@ -64,7 +64,7 @@ const Navbar = () => {
         )}
 
         {!isSmallScreen && (
-          <div className="bg-pink-100 rounded-full px-2 py-2 relative z-10">
+          <div className="bg-custom rounded-full px-2 py-2 relative z-10">
             <img src={cart} alt="Cart Icon" />
           </div>
         )}

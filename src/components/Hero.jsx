@@ -1,5 +1,6 @@
 const Hero = () => {
     return (
+      // Updated hero section
       <div className="my-10 mx-36 bg-custom h-150 flex justify-center">
         <div className="w-1/3">
 

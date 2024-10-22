@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: [
     "./index.html",
@@ -7,10 +8,17 @@ export default {
   theme: {
     extend: {
       height: {
-        '150': '445px', // Custom height class h-150
+        '150': '445px', 
+      },
+
+      width:{
+         '150' : '500px',
       },
       colors: {
-        'custom': '#F1DDC9', // Correctly defined custom color
+        'custom': '#F1DDC9',
+      },
+      fontFamily: {
+        font2: ['Nunito', 'sans-serif'], 
       },
     },
   },

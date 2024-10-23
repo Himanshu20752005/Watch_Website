@@ -9,10 +9,13 @@ export default {
     extend: {
       height: {
         '150': '445px', 
+        '100': '350px',
+        '200' : '600px'
       },
 
       width:{
          '150' : '500px',
+         '200' : '1000px',
       },
       colors: {
         'custom': '#F1DDC9',

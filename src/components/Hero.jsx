@@ -1,12 +1,12 @@
 import watch from '../assets/Hero_Watch.svg'
-
+import watch2 from '../assets/Hero_Watch.png'
 const Hero = () => {
     return (
-      
+      //Its not updating why?
       <div className="my-9 mx-36 bg-custom h-150 flex justify-center">
         <div className="w-1/3">
-
-          <img src={watch} alt="Watch IMG" className='w-64 h-150 mt-20 ml-5' />
+        <img src={watch2} alt="Watch IMG" className='w-100 h-100 mt-16' />
+          {/* <img src={watch} alt="Watch IMG" className='w-96 h-100 mt-32 ' /> */}
         </div>
 
 

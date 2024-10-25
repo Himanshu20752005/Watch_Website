@@ -16,6 +16,7 @@ const Hero = () => {
         <img src={line} alt="line2" className="w-150 h-auto  mb-40 ml-auto" />
       </div>
       
+      {/* Main cream color background*/}
       <div className="my-9 mx-36 bg-custom h-150 flex justify-center relative z-0">
 
       <div className="w-1/3 relative ">

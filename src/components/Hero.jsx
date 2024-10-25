@@ -16,13 +16,15 @@ const Hero = () => {
         <img src={line} alt="line2" className="w-150 h-auto  mb-40 ml-auto" />
       </div>
       
-      {/* Main cream color background*/}
+      {/* Main cream color background (MAIN BOX)*/}
       <div className="my-9 mx-36 bg-custom h-150 flex justify-center relative z-0">
 
+       {/* MAIN BOX - Left*/}
       <div className="w-1/3 relative ">
         <img src={watch2} alt="Watch IMG" className='w-200 h-auto mt-16' />
       </div>
-
+       
+       {/* MAIN BOX - Right*/}
       <div className="w-2/3">
         <h1 className="text-5xl mt-12 w-96 leading-normal">WAY KAMBAS MINI EBONY</h1>
         <div className="h-0.5 bg-black w-1/6 mt-1"></div>

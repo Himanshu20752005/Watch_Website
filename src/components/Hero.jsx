@@ -17,7 +17,7 @@ const Hero = () => {
       </div>
       
       {/* Main cream color background (MAIN BOX)*/}
-      <div className="my-9 mx-36 bg-custom h-150 flex justify-center relative z-0">
+      <div className="my-9 mx-36 bg-custom h-150 flex justify-center relative z-0 sm: md: lg: ">
 
        {/* MAIN BOX - Left*/}
       <div className="w-1/3 relative ">

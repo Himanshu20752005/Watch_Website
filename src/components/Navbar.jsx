@@ -124,3 +124,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+// NAV BAR IS COMPLEATED

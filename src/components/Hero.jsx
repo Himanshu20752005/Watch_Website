@@ -59,4 +59,4 @@ const Hero = () => {
 };
 
 export default Hero;
-
+// Making it Dynamic

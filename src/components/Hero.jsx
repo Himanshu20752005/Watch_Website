@@ -49,7 +49,7 @@ const Hero = () => {
   </div>
 
 
-
+         {/* not needed */}
         {/* Sliding buttons*/}
         {/* <div className="flex gap-3 ml-100 mb-24 z-20 relative  ">
           <div className="border border-red-500 flex justify-center items-center mt-3  h-12 w-12">

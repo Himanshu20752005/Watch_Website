@@ -11,7 +11,7 @@ const Hero = () => {
   return (
     
     <div >
-      {/* line patterns on right side*/}
+      {/* line patterns on right side - updated*/}
       <div className="absolute inset-0 flex flex-col   justify-center items-center z-10 ">
         <img src={line} alt="line2" className="w-150 h-auto  mb-40 ml-auto hidden md:block md:opacity-50" />
       </div>
